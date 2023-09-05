@@ -1,0 +1,18 @@
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.kanban-board {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  margin: 10px;
+  min-width: 300px;
+}
